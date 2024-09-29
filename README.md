@@ -49,12 +49,16 @@ A planilha deve ter o seguinte formato, com as colunas `Nome`, `Bairro` e `Conta
 python agenda.py
 ```
 
+## Resultado
+O arquivo agenda_telefonica.vcf será criado com os contatos formatados corretamente.
+
+
 ### Melhorias Futuras
 - Suporte a múltiplos números de telefone por contato.
 - Adição de mais campos no vCard, como endereço e email.
 
 #### TÓPICOS
-[Funcionamento do Código](##funcionamento-do-codigo), [Exemplo da Planilha Excel](##exemplo-da-planilha-excel), [Como Executar](##como-executar), [Resultado](##resultado), [Código](##código), e [Melhorias Futuras](##melhorias-futuras)
+[Funcionamento do Código](#funcionamento-do-código), [Exemplo da Planilha Excel](#exemplo-da-planilha-excel), [Como Executar](#como-executar), [Resultado](#resultado).
 
 
 ## Criado por
