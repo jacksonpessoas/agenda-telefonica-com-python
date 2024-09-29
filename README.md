@@ -53,11 +53,6 @@ python agenda.py
 - Suporte a múltiplos números de telefone por contato.
 - Adição de mais campos no vCard, como endereço e email.
 
-#### Observação: 
-O campo Bairro na planilha foi utilizado como Sobrenome no vCard. Caso prefira separar esses campos, basta ajustar o código conforme sua necessidade.
-
-
-
 #### TÓPICOS
 ["Funcionamento do Código"](##funcionamento-do-codigo), ["Exemplo da Planilha Excel"](##exemplo-da-planilha-excel), ["Como Executar"](##como-executar), ["Resultado"](##resultado), ["Código"](##código), e ["Melhorias Futuras"](##melhorias-futuras)
 
