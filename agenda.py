@@ -5,8 +5,8 @@ import vobject
 arquivo_excel = 'agenda_telefonica.xlsx'
 planilha = pd.read_excel(arquivo_excel)
 
-# Filtrar as colunas de Nome, Sobrenome (Bairro) e Contato
-agenda = planilha[['Nome', 'Bairro', 'Contato']]  # Usando 'Bairro' como Sobrenome
+# Filtrar as colunas de Nome, Sobrenome e Contato
+agenda = planilha[['Nome', 'Sobrenome', 'Contato']]  
 
 # Criar um arquivo vCard (.vcf)
 with open('agenda_telefonica.vcf', 'w') as vcf_file:
@@ -15,7 +15,7 @@ with open('agenda_telefonica.vcf', 'w') as vcf_file:
         
         # Nome completo e sobrenome
         nome_completo = row['Nome']
-        sobrenome = row['Bairro']  # Substituindo 'Bairro' por 'Sobrenome'
+        sobrenome = row['Sobrenome']  # Substituindo 'Bairro' por 'Sobrenome'
         vcard.add('n').value = vobject.vcard.Name(family=sobrenome, given=nome_completo)
         
         # Campo 'FN' (nome completo obrigatório)
