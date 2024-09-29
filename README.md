@@ -54,7 +54,7 @@ python agenda.py
 - Adição de mais campos no vCard, como endereço e email.
 
 #### TÓPICOS
-["Funcionamento do Código"](##funcionamento-do-codigo), ["Exemplo da Planilha Excel"](##exemplo-da-planilha-excel), ["Como Executar"](##como-executar), ["Resultado"](##resultado), ["Código"](##código), e ["Melhorias Futuras"](##melhorias-futuras)
+[Funcionamento do Código](##funcionamento-do-codigo), [Exemplo da Planilha Excel](##exemplo-da-planilha-excel), [Como Executar](##como-executar), [Resultado](##resultado), [Código](##código), e [Melhorias Futuras](##melhorias-futuras)
 
 
 ## Criado por
